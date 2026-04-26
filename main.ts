@@ -8,8 +8,9 @@ const urls = [
 
 const downloadManager = new DownloadManager({
   consoleLog: true, // Enable logging
-  method: "queue", // Use queue-based download
+  // method: "queue", // Use queue-based download
   downloadFolder: "downloads",
+  method: "simple",
 });
 
 await downloadManager.download(urls);
