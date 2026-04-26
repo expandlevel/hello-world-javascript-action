@@ -1,0 +1,16 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "bun-downloader-manager": "^1.0.7",
+      },
+    },
+  },
+  "packages": {
+    "bun-downloader-manager": ["bun-downloader-manager@1.0.7", "", { "peerDependencies": { "typescript": "^5.0.0" } }, "sha512-l7vJpKW3+o/vZp5bZHNBMKMuYg6ssnCFaN8U8KxsOyUj4KOeNUgKEYewZDyOxqsKHefprm7VDMN8bLGBAM85YQ=="],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+  }
+}
